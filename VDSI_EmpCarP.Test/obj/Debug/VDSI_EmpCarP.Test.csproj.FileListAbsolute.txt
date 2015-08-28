@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\bin\Debug\VDSI_EmpCarP.Test.dll
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\bin\Debug\VDSI_EmpCarP.Test.pdb
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\bin\Debug\VDSI_EmpCarPooling.dll
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\bin\Debug\VDSI_EmpCarPooling.pdb
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\obj\Debug\VDSI_EmpCarP.Test.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\obj\Debug\VDSI_EmpCarP.Test.dll
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarP.Test\obj\Debug\VDSI_EmpCarP.Test.pdb

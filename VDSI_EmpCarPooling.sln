@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDSI_EmpCarPooling_BLL", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDSI_EmpCarPooling_DTO", "VDSI_EmpCarPooling_DTO\VDSI_EmpCarPooling_DTO.csproj", "{3A10CDF5-7489-4161-BBCC-EAC12E8BCFCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDSI_EmpCarP.Test", "VDSI_EmpCarP.Test\VDSI_EmpCarP.Test.csproj", "{F6D5D154-A392-459B-A0DD-5AB4AF9A24B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{3A10CDF5-7489-4161-BBCC-EAC12E8BCFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A10CDF5-7489-4161-BBCC-EAC12E8BCFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A10CDF5-7489-4161-BBCC-EAC12E8BCFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D5D154-A392-459B-A0DD-5AB4AF9A24B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D5D154-A392-459B-A0DD-5AB4AF9A24B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D5D154-A392-459B-A0DD-5AB4AF9A24B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D5D154-A392-459B-A0DD-5AB4AF9A24B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
