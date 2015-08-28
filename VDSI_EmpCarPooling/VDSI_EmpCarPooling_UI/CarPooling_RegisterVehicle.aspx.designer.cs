@@ -22,6 +22,15 @@ namespace VDSI_EmpCarPooling.VDSI_EmpCarPooling_UI {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// lblHead control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblHead;
+        
+        /// <summary>
         /// lblName control.
         /// </summary>
         /// <remarks>

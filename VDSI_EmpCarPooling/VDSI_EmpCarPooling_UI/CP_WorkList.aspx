@@ -12,9 +12,15 @@
     <div>
         <table style="width:80%;vertical-align:central; text-align:center">
             <tr>
-                <td>
-                    <asp:Label ID="lblHeading" runat="server" Text="Work List" ></asp:Label>
+                <td style="text-align:center">
+                    <asp:Label  style="text-align:center; font-weight:bolder; font-size:large; color:maroon; text-align:center;" ID="lblHeading" runat="server" Text="Work List" ></asp:Label>
                 </td>
+            </tr>
+            <tr style="height:15px;">
+
+            </tr>
+            <tr>
+
             </tr>
             <tr>
                 <td>
@@ -29,6 +35,9 @@
                 </td>
             </tr>
         </table>
+        <br />
+        <br />
+
         <asp:GridView ID="grdView" runat="server" AutoGenerateColumns="false" OnRowDeleting="grdView_RowDeleting" OnRowEditing="grdView_RowEditing">
             <Columns>
                 <asp:TemplateField>

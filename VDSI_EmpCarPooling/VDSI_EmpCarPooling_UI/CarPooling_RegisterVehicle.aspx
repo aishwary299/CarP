@@ -7,10 +7,15 @@
     <title></title>
     <link href="../style/StyleSheet1.css" rel="stylesheet" />   
 </head>
-<body>
+<body style="background-image: url(../Images/Carp_reg.jpg);">
     <form id="form1" runat="server">
         <div>
             <table>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <asp:Label  ID="lblHead" style="font-weight:bold;text-align:center;color:maroon" runat="server">Register Your Car</asp:Label>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <asp:Label Text="Name" ID="lblName" runat="server" style="font-weight:bold; color:black;"></asp:Label>
@@ -93,7 +98,7 @@
                 </tr>
             </table>
             <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click"
-                  style="font-weight:bold;color:red; background-color:white;" ></asp:Button>
+                  style="font-weight:bold;color:maroon; background-color:white;" ></asp:Button>
 
             <br />
             <asp:Label ID="lblMsg" runat="server" Font-Bold="true" ForeColor="RosyBrown"></asp:Label>

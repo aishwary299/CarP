@@ -22,3 +22,4 @@ C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarPooling\b
 C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarPooling\bin\VDSI_EmpCarPooling.pdb
 C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarPooling\obj\Debug\VDSI_EmpCarPooling.dll
 C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarPooling\obj\Debug\VDSI_EmpCarPooling.pdb
+C:\Users\Administrator\Documents\GitHub\VDSI_EmpCarPooling2\VDSI_EmpCarPooling\obj\Debug\VDSI_EmpCarPooling.csprojResolveAssemblyReference.cache

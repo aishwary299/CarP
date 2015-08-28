@@ -58,9 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Approve_svg.png" />
+    <Content Include="Images\Carp_reg.jpg" />
+    <Content Include="Images\cars_imagewallpaper.jpg" />
+    <Content Include="Images\car_registration.jpg" />
     <Content Include="Images\delete.png" />
     <Content Include="Images\iconRequestInfo.png" />
     <Content Include="Images\image.jpg" />
+    <Content Include="Images\image_workList.jpg" />
     <Content Include="Menupage.aspx" />
     <Content Include="style\StyleSheet1.css" />
     <Content Include="VDSI_EmpCarPooling_UI\CarPooling_RegisterVehicle.aspx" />

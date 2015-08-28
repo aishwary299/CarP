@@ -7,7 +7,7 @@
     <title></title>
     <link href="../style/StyleSheet1.css" rel="stylesheet" />  
 </head>
-<body>
+<body style="background-image: url(../Images/cars_imagewallpaper.jpg);">
     <form id="form1" runat="server">
     <div>
         <table style="width:80%;vertical-align:central; text-align:center">

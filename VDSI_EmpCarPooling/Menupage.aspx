@@ -12,23 +12,21 @@
         }
     </style>
 </head>
-<body class="news">
-    <header>
-    </header>
+<body id="bodyMenu">   
         <table style="position:absolute; top: 19px; left: 0px; height: 170px;">
             <tr>
-                <td class="auto-style1"><div style="width: 271px; position:absolute; font-weight:bolder; text-align:center; top: -26px; left: 247px;">VDSI Employee Car Pooling</div>
+                <td><div style="position:absolute; font-weight:bolder; height:20px; font-size:large; color:maroon; text-align:center; top: -26px; left:120px;">VDSI Employee Car Pooling</div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="nav">
+                    <div class="nav" style="top: -26px; left: 247px;">
                         <ul>
                             <li class="home"><a runat="server" href="VDSI_EMPCarPooling_UI/CarPooling_RegisterVehicle.aspx">Registration</a></li>
-                            <li class="tutorials"><a runat="server" class="active" href="VDSI_EMPCarPooling_UI/CarPooling_View.aspx">Book a Cab</a></li>
-                            <li class="home"><a id="A1" runat="server" href="VDSI_EMPCarPooling_UI/CP_WorkList.aspx">Registration</a></li>
+                            <li class="tutorials"><a runat="server"  href="VDSI_EMPCarPooling_UI/CarPooling_View.aspx">Book a Cab</a></li>
+                            <li class="home"><a id="A1" runat="server" href="VDSI_EMPCarPooling_UI/CP_WorkList.aspx">Work List</a></li>
 
-                        </ul>
+                        </ul>                       
                     </div>
                 </td>
             </tr>
