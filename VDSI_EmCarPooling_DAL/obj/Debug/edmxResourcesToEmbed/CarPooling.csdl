@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VDSI_CARPModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="VDSI_CARPEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="LOGINs" EntityType="VDSI_CARPModel.LOGIN" />
+    <EntitySet Name="POOLINGREQUESTs" EntityType="VDSI_CARPModel.POOLINGREQUEST" />
+    <EntitySet Name="CARREGDETAILS" EntityType="VDSI_CARPModel.CARREGDETAIL" />
+  </EntityContainer>
+  <EntityType Name="LOGIN">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="EmpName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="POOLINGREQUEST">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ReqEmpId" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="OwnerEmpId" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Seats" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+  </EntityType>
+  <EntityType Name="CARREGDETAIL">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="EmpId" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="From" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="To" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Via" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InTime" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OutTime" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Status" />
+  </EntityType>
+</Schema>

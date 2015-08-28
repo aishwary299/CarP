@@ -1,0 +1,86 @@
+﻿header {
+  margin: 0;
+  padding: 0;
+  background-color:lightgray;
+  width:750px;
+}
+html {
+  background-color: darkgray;
+}
+body {
+  position: relative;
+  background-color: lightgray;
+  width: 750px;
+  margin-top:40px;
+    top: 98px;
+    left: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+table {
+    background-color:lightgray;
+}
+.nav ul {
+  list-style: none;
+  background-color: lightgray;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width:500px;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 10px;
+  height: 10px;
+  border-bottom: 1px solid #888;
+  width:250px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}

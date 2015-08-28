@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VDSI_CARPModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="VDSI_CARPModelStoreContainer">
+    <EntitySet Name="CARREGDETAILS" EntityType="VDSI_CARPModel.Store.CARREGDETAILS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LOGIN" EntityType="VDSI_CARPModel.Store.LOGIN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="POOLINGREQUEST" EntityType="VDSI_CARPModel.Store.POOLINGREQUEST" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CARREGDETAILS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="varchar" MaxLength="30" />
+    <Property Name="Email" Type="varchar" MaxLength="30" />
+    <Property Name="From" Type="varchar" MaxLength="30" />
+    <Property Name="To" Type="varchar" MaxLength="30" />
+    <Property Name="Via" Type="varchar" MaxLength="30" />
+    <Property Name="InTime" Type="varchar" MaxLength="30" />
+    <Property Name="OutTime" Type="varchar" MaxLength="30" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="LOGIN">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="varchar" MaxLength="30" />
+    <Property Name="EmpName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="30" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="POOLINGREQUEST">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ReqEmpId" Type="varchar" MaxLength="30" />
+    <Property Name="OwnerEmpId" Type="varchar" MaxLength="30" />
+    <Property Name="Seats" Type="int" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+</Schema>

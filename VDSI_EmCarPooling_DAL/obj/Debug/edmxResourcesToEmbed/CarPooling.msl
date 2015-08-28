@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VDSI_CARPModelStoreContainer" CdmEntityContainer="VDSI_CARPEntities">
+    <EntitySetMapping Name="LOGINs">
+      <EntityTypeMapping TypeName="VDSI_CARPModel.LOGIN">
+        <MappingFragment StoreEntitySet="LOGIN">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POOLINGREQUESTs">
+      <EntityTypeMapping TypeName="VDSI_CARPModel.POOLINGREQUEST">
+        <MappingFragment StoreEntitySet="POOLINGREQUEST">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ReqEmpId" ColumnName="ReqEmpId" />
+          <ScalarProperty Name="OwnerEmpId" ColumnName="OwnerEmpId" />
+          <ScalarProperty Name="Seats" ColumnName="Seats" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARREGDETAILS">
+      <EntityTypeMapping TypeName="VDSI_CARPModel.CARREGDETAIL">
+        <MappingFragment StoreEntitySet="CARREGDETAILS">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OutTime" ColumnName="OutTime" />
+          <ScalarProperty Name="InTime" ColumnName="InTime" />
+          <ScalarProperty Name="Via" ColumnName="Via" />
+          <ScalarProperty Name="To" ColumnName="To" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
